@@ -153,6 +153,8 @@ body {
 .details .section__list-item {
     /* 底部边距 */
     margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* 最后一个列表项边距为0 */
@@ -173,7 +175,7 @@ body {
 /* 左列宽度 */
 .details .left {
     /* 宽度为60% */
-    width: 60%;
+    /* width: 60%; */
 }
 
 /* 右列文本右对齐 */
@@ -181,7 +183,7 @@ body {
     /* 文本右对齐 */
     text-align: right;
     /* 宽度为39% */
-    width: 39%;
+    /* width: 39%; */
 }
 
 /* 名字加粗 */
@@ -212,6 +214,8 @@ body {
 .details .skills__item {
     /* 底部边距 */
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* 技能条样式 */
