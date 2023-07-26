@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>js basic</title>
+</head>
+
+<!--
+	js basic
+		origin
+			直接写在html标签上
+		inner
+			写在html页面中script标签中
+		outer
+			写在外部js文件，通过script标签引入js文件
+
+	=== === ===
+
+		inner和outer的放置的位置：
+			1. 放在head标签中
+			2. 放在</body>标签后（推荐）
+
+		js代码从上往下依次执行，最好等到html元素执行完毕后再执行js代码
+
+		onclick 点击事件，当点击元素时触发
+		alert("内容") 弹出层
+		console.log(""); 打印内容在控制台
+
+-->
+
+<body>
+	<!-- origin -->
+	<button type="button" onclick="alert('Hello')">按我试试</button>
+
+	<!-- inner -->
+	<script type="text/javascript">
+		// alert("你好");
+	</script>
+
+	<!-- outer -->
+	<!-- 注：如果 script 标签设置了 src 属性，则在script标签中写的 js 代码无效 -->
+	<script src="js/test.js"></script>
+</body>
+
+</html>
