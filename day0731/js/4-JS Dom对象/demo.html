@@ -4,22 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>change background color on click</title>
 </head>
 <body>
     <input id="ipt" type="button" value="改变颜色" onclick="changeBgColor()">
-    
+
     <script>
         function changeBgColor() {
-            var body = document.body;
-            console.log(body);
-            body.style.backgroundColor = "yellow";
-
-            var body = document.body;
-            console.log(body);
-            body.style.backgroundColor = "blue";
+            document.body.style.backgroundColor = "blue";
         }
-     
+
     </script>
 </body>
 </html>
