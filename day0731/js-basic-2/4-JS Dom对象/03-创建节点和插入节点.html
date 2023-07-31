@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 	<head>
 		<meta charset="utf-8">
 		<title></title>
@@ -16,7 +16,6 @@
 			insertBefore()			向指定的已有的节点之前插入新的节点
 										newItem：要插入的节点
 										exsitingItem：参考节点   需要参考父节点
-
 	 -->
 	<body>
 		<button onclick="addPara();">添加段落</button>
@@ -66,7 +65,6 @@
 		/* 方式三 */
 		var p = "<p>这是文本</p>";
 		div.innerHTML += p;
-
 	}
 
 	/**
@@ -99,8 +97,6 @@
 		/* 方式三*/
 		var img = "<img src='img/img1.jpg' />";
 		div.innerHTML += img;
-
-
 	}
 
 	/**
@@ -120,7 +116,6 @@
 		div.appendChild(inp);
 		 */
 
-
 		/* // 创建input元素
 		var inp = document.createElement("input");
 		// 设置属性
@@ -129,11 +124,9 @@
 		// 将input元素设置到容器中
 		div.appendChild(inp); */
 
-
 		var inp = "<input type='text' value='hello' />";
 		div.innerHTML += inp;
 	}
-
 
 	/**
 	 * 添加下拉框
@@ -150,7 +143,6 @@
 		// 给下拉框添加下拉选项
 		music.appendChild(opt); */
 
-
 		/* // 创建下拉选项
 		var opt = document.createElement("option");
 		// 设置文本和值
@@ -160,14 +152,8 @@
 		console.log(music.options);
 		music.options.add(opt); */
 
-
 		var opt = '<option value="2">千里之外</option>';
 		music.innerHTML += opt;
-
-
 	}
-
-
 	</script>
-
 </html>

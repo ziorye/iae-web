@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 	<head>
 		<meta charset="utf-8">
 		<title>系统对话框</title>
@@ -9,7 +9,7 @@
 		<button type="button" onclick="testPrompt()">输入框</button>
 		<button type="button" onclick="testConfirm()">确认框</button>
 	</body>
-	<!-- 
+	<!--
 		系统对话框
 			（1）消息框:alert， 常用。
 				alert() 方法用于显示带有一条指定消息和一个 OK 按钮的警告框。
@@ -27,13 +27,13 @@
 			alert("Hello");
 			console.log("你好...");
 		}
-		
+
 		// 2）输入框:prompt，返回提示框中的值
 		function testPrompt(){
 			var uname = window.prompt("请输入用户名：","");
 			console.log(uname);
 		}
-		
+
 		// 3）确认框:confirm，返回 true/false.
 		function testConfirm() {
 			var flag = confirm("您确认要删除该记录吗？");
@@ -43,7 +43,5 @@
 				alert("没事别瞎点...");
 			}
 		}
-		
-		
 	 </script>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 	<head>
 		<meta charset="utf-8">
 		<title>获取节点</title>
@@ -17,7 +17,6 @@
 			getElementsByName()			根据name属性值获取dom对象数组，常用于多选获取值
 
 			说明：href="javascript:void(0)"：伪协议，表示不执行跳转，而执行指定的点击事件。
-
 		 -->
 
 			<p id="p1" class="para">这是一个段落<span>文本</span></p>
@@ -33,7 +32,6 @@
 		 	<a href="javascript:void(0);" onclick="testByClass();">按照class获取</a>
 
 		<script type="text/javascript">
-
 			/**
 			 * 按照id获取
 			 *  如果获取元素时，id有多个，则以第一个为准
@@ -74,8 +72,6 @@
 				var clas = document.getElementsByClassName("para");
 				console.log(clas.length);
 			}
-
-
 		</script>
 	</body>
 </html>

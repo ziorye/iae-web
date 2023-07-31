@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 	<head>
 		<meta charset="utf-8">
 		<title>history对象</title>
 	</head>
 	<body>
-		<h2>页面3</h2>
+		<h2>页面2</h2>
+		<a href="05-history对象-3.html">页面3</a>
+		<hr />
+		<button type="button" onclick="window.history.forward();">前进</button>
 		<button type="button" onclick="window.history.back()">后退</button>
 	</body>
 	<!--
@@ -19,8 +22,7 @@
 		 		go(number|URL):
 				URL 参数使用的是要访问的 URL。而 number 参数使用的是要访问的 URL 在 History 的 URL 列表中的相对位置。go(-1)，到上一个页面
 	 -->
-	 <script type="text/javascript">
-	 	console.log(window.history.length);
-
-	 </script>
+	<script type="text/javascript">
+		console.log(window.history.length);
+	</script>
 </html>

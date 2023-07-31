@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 	<head>
 		<meta charset="utf-8">
 		<title>history对象</title>
 	</head>
 	<body>
-		<h2>页面1</h2>
-		<a href="05-history对象-2.html">页面2</a>
-		<hr >
-		<button type="button" onclick="window.history.go(2)">前进2</button>
+		<h2>页面3</h2>
+		<button type="button" onclick="window.history.back()">后退</button>
 	</body>
 	<!--
 		history对象的属性：length，返回浏览器历史列表中的 URL 数量。
@@ -23,6 +21,5 @@
 	 -->
 	 <script type="text/javascript">
 	 	console.log(window.history.length);
-
 	 </script>
 </html>
