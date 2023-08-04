@@ -11,7 +11,7 @@
 ![navbar login link](navbar-login.gif)
 
 ## 任务3：增加 `登录` 页面
-![logi](login-page.gif)
+![login](login-page.gif)
 
 ## 任务4：增加 `注册` 页面
 ![register](register-page.gif)
